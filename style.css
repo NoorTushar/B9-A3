@@ -1,0 +1,22 @@
+.my-container {
+  width: 71.25%;
+  margin: 0 auto;
+  max-width: 1026px;
+}
+
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.common-p {
+  color: #777;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.section-title {
+  color: #1c1c1c;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+}
