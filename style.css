@@ -1,7 +1,9 @@
 .my-container {
-  width: 71.25%;
+  width: 82%;
   margin: 0 auto;
-  max-width: 1026px;
+  max-width: 1170px;
+
+  /* max-w-[1170px] mx-auto lg:w-[82%] w-[93%] */
 }
 
 .font-manrope {
@@ -9,14 +11,24 @@
 }
 
 .common-p {
-  color: #777;
+  color: #13131899;
   font-weight: 500;
   line-height: 28px; /* 175% */
+
+  /* text-[#13131899] font-medium */
 }
 
 .section-title {
-  color: #1c1c1c;
-  font-size: 45px;
+  color: #131318;
+  font-size: 36px;
   font-weight: 800;
-  line-height: normal;
+
+  /* text-our-black text-2xl lg:text-4xl font-extrabold mb-6*/
+}
+
+.inner-section-heading {
+  color: #131318;
+  font-size: 20px;
+  font-weight: 800;
+  /* text-our-black text-xl font-extrabold */
 }
