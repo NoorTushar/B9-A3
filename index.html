@@ -412,7 +412,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -469,7 +469,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -526,7 +526,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -583,7 +583,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -640,7 +640,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -697,7 +697,7 @@
                   Dolor sit amet consectetur. Ut urna diam quis sagittis.
                 </p>
                 <!-- bot -->
-                <div class="flex gap-5">
+                <div class="flex gap-1 lg:gap-5 flex-col lg:flex-row">
                   <h4 class="font-extrabold text-our-primary text-lg">
                     Price - $22.00
                   </h4>
@@ -1005,7 +1005,7 @@
                 >
               </div>
               <textarea
-                class="w-full bg-[#F8F8F8] outline-none border-none focus:outline-none h-52 lg:h-96 text-base p-5 rounded-lg"
+                class="w-full bg-[#F8F8F8] outline-none border-none focus:outline-none h-52 lg:h-96 text-base p-5 rounded-lg resize-none"
                 placeholder="Write your message"
               ></textarea>
             </label>
@@ -1059,11 +1059,38 @@
       <!-- Get in Touch Section End -->
     </main>
 
-    <footer class="bg-black">
+    <footer class="bg-black py-10">
       <div
-        class="p-10 text-[#A1A1A3] max-w-[1170px] mx-auto lg:w-[82%] w-[90%]"
+        class="px-4 lg:p-10 text-[#A1A1A3] max-w-[1170px] font-medium mx-auto lg:w-[82%] w-[90%] grid grid-cols-4 lg:grid-cols-5 gap-10"
       >
-        <nav>
+        <!-- 1 -->
+        <div class="lg:col-span-2 col-span-4 text-center lg:text-left">
+          <h3 class="text-white text-2xl font-bold mb-7">Get In Touch</h3>
+          <div class="space-y-3">
+            <p class="max-w-[346px]">
+              Dit amet consectetur. Condimentum adipiscing aliquam turpis
+              placerat dolor. Purus urna in sit nullam proin.
+            </p>
+            <div
+              class="flex gap-4 items-center justify-center lg:justify-start"
+            >
+              <div>
+                <i class="fa-regular fa-envelope text-our-primary text-2xl"></i>
+              </div>
+              <p>hockeys@support.com</p>
+            </div>
+            <div
+              class="flex gap-4 items-center justify-center lg:justify-start"
+            >
+              <div>
+                <i class="fa-solid fa-phone text-our-primary text-2xl"></i>
+              </div>
+              <p>(+62) 123-321-543</p>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <nav class="col-span-2 lg:col-span-1 text-center lg:text-left">
           <header class="text-white text-lg font-bold mb-7">Company</header>
           <ul class="space-y-4">
             <li>
@@ -1098,8 +1125,8 @@
             </li>
           </ul>
         </nav>
-
-        <nav>
+        <!-- 3 -->
+        <nav class="col-span-2 lg:col-span-1 text-center lg:text-left">
           <header class="text-white text-lg font-bold mb-7">Support</header>
           <ul class="space-y-4">
             <li>
@@ -1128,9 +1155,55 @@
             </li>
           </ul>
         </nav>
+        <!-- 4 -->
+        <nav class="col-span-4 lg:col-span-1 text-center lg:text-left">
+          <header class="text-white text-lg font-bold mb-7">Services</header>
+          <ul class="space-y-4">
+            <li>
+              <a
+                class="cursor-pointer transition-all duration-300 hover:text-our-primary"
+                >Academy</a
+              >
+            </li>
+            <li>
+              <a
+                class="cursor-pointer transition-all duration-300 hover:text-our-primary"
+                >Group Lesson</a
+              >
+            </li>
+            <li>
+              <a
+                class="cursor-pointer transition-all duration-300 hover:text-our-primary"
+                >Private Lesson</a
+              >
+            </li>
+            <li>
+              <a
+                class="cursor-pointer transition-all duration-300 hover:text-our-primary"
+                >Hockeys for kids</a
+              >
+            </li>
+            <li>
+              <a
+                class="cursor-pointer transition-all duration-300 hover:text-our-primary"
+                >Hockeys for Adult</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- copyright -->
+      <div class="text-center mt-6">
+        <p class="text-white font-medium">
+          Website Created by <br />
+          <strong class="text-our-primary"
+            ><a href="https://www.facebook.com/NoorTusharKhan/"
+              >Noor Tushar</a
+            ></strong
+          >
+          &copy; 2024
+        </p>
       </div>
     </footer>
-
-    <!-- <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div> -->
   </body>
 </html>
